@@ -1,0 +1,2 @@
+# intelligent_traffic_lights
+In all our previous work in computer vision, we have dealt with static images and obtaining features from the images. To take it a step further, we now try to work on videos (real time). This thought and curiosity triggered the notion of taking up this project. The main aim is to observe and track vehicles real-time at traffic signals., thereby reducing the time delay for vehicles waiting at a traffic light. This idea could intelligently switch traffic signals based on the density of vehicles in a particular lane and avoid lengthy halts.
