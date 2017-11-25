@@ -1,13 +1,9 @@
 import cv2
 import math
 import numpy as np
-#video_src = 'video1.avi'
-video_src = 'video1.avi'
-#cascade_src = 'D:/Downloads/vehicle_detection_haarcascades/cars3.xml'
-cascade_src='cars2.xml'
+video_src = 'videoData/video1.avi'
+cascade_src='classifiers/cars2.xml'
 
-#video_src = 'D:/Downloads/Car-Traffic.mp4'
-#video_src = 'dataset/video2.avi'
 video_capture = cv2.VideoCapture(video_src)
 car_cascade = cv2.CascadeClassifier(cascade_src)
 count = 0
