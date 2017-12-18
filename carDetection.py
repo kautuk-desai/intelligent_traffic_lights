@@ -16,7 +16,7 @@ patience = 0
 lane2_patience = 0 ##implying traffic at the red signal lane
 
 red_signal = cv2.imread('videoData/redsignal.jpg')
-green_signal = cv2.imread('videoData/greensignal.png');
+green_signal = cv2.imread('videoData/greensignal.png')
 
 while True:
     cv2.namedWindow('signal',cv2.WINDOW_NORMAL)
